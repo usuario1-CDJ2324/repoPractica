@@ -20,15 +20,15 @@ namespace WindowsFormsApp1
 
         private void button1_Click(object sender, EventArgs e)
         {
-            double num1, num2, num3, suma, producto;
+            double num1_CDJ2324, num2, num3, suma, producto;
             string tSuma, tProducto;
 
-            num1 = double.Parse(tNum1.Text);
+            num1_CDJ2324 = double.Parse(tNum1.Text);
             num2 = double.Parse(tNum2.Text);
             num3 = double.Parse(tNum3.Text);
 
-            suma = (double)num1 - (double)num2 + (double)num3;
-            producto = (double)num1 * (double)num2 + (double)num3;
+            suma = (double)num1_CDJ2324 + (double)num2 + (double)num3;
+            producto = (double)num1_CDJ2324 * (double)num2 * (double)num3;
 
             tSuma = suma.ToString();
             tProducto = producto.ToString();
