@@ -30,7 +30,7 @@
         {
             this.button1 = new System.Windows.Forms.Button();
             this.tNum1 = new System.Windows.Forms.TextBox();
-            this.tNum2 = new System.Windows.Forms.TextBox();
+            this.tNum2_CDJ2324 = new System.Windows.Forms.TextBox();
             this.tNum3 = new System.Windows.Forms.TextBox();
             this.SuspendLayout();
             // 
@@ -51,12 +51,12 @@
             this.tNum1.Size = new System.Drawing.Size(180, 22);
             this.tNum1.TabIndex = 1;
             // 
-            // tNum2
+            // tNum2_CDJ2324
             // 
-            this.tNum2.Location = new System.Drawing.Point(401, 126);
-            this.tNum2.Name = "tNum2";
-            this.tNum2.Size = new System.Drawing.Size(147, 22);
-            this.tNum2.TabIndex = 2;
+            this.tNum2_CDJ2324.Location = new System.Drawing.Point(401, 126);
+            this.tNum2_CDJ2324.Name = "tNum2_CDJ2324";
+            this.tNum2_CDJ2324.Size = new System.Drawing.Size(147, 22);
+            this.tNum2_CDJ2324.TabIndex = 2;
             // 
             // tNum3
             // 
@@ -71,7 +71,7 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(800, 450);
             this.Controls.Add(this.tNum3);
-            this.Controls.Add(this.tNum2);
+            this.Controls.Add(this.tNum2_CDJ2324);
             this.Controls.Add(this.tNum1);
             this.Controls.Add(this.button1);
             this.Name = "Form1";
@@ -85,7 +85,7 @@
 
         private System.Windows.Forms.Button button1;
         private System.Windows.Forms.TextBox tNum1;
-        private System.Windows.Forms.TextBox tNum2;
+        private System.Windows.Forms.TextBox tNum2_CDJ2324;
         private System.Windows.Forms.TextBox tNum3;
     }
 }
