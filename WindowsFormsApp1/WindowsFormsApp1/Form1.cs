@@ -27,8 +27,8 @@ namespace WindowsFormsApp1
             num2 = double.Parse(tNum2.Text);
             num3 = double.Parse(tNum3.Text);
 
-            suma = (double)num1 + (double)num2 + (double)num3;
-            producto = (double)num1 * (double)num2 * (double)num3;
+            suma = (double)num1 - (double)num2 + (double)num3;
+            producto = (double)num1 * (double)num2 + (double)num3;
 
             tSuma = suma.ToString();
             tProducto = producto.ToString();
